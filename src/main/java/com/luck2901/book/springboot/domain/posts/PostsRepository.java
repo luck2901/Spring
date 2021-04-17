@@ -1,5 +1,6 @@
-package com.luck2901.book.springboot.domain.posts;
+package com.luck2901.book.springboot.Domain1.posts;
 
+import com.luck2901.book.springboot.Domain1.posts.Posts;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PostsRepository extends JpaRepository<Posts, Long> {
